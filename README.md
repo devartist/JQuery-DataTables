@@ -1,6 +1,6 @@
 # DataTables
-<b>PHP DataTables</b>
-<b>Jquery DataTables</b>
+<b>PHP DataTables</b> - 
+<b>Jquery DataTables</b><br>
 Jquery Datatables (Javascript) Class - Library
 
 <b>I'm writting Turkish, because my English is not very good.<br>
