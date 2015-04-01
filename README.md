@@ -73,7 +73,6 @@ için yazdığım <b>kullanımı çok basit</b> bir sınıf. Kütüphanenin bir 
             [turn_type_name] => Adet
             [file] => 4148426059644ff603d77cc34758d2f5
         )
-
     [1] => Array
         (
             [id] => 757
@@ -129,23 +128,23 @@ için yazdığım <b>kullanımı çok basit</b> bir sınıf. Kütüphanenin bir 
 
 <code>
   $orderList->setColumn(array(
-			'id'						  => '<span data-toggle="tooltip" data-placement="top" title="Sıra No">S.No</span>',
-			'customer_name'		=> 'Firma Adı',
-			'width'						=> 'En',
-			'height'					=> 'Boy',
-			'paper_type_name'	=> 'Kağıt',
-			'cut_type_name'		=> 'Kesim',
-			'skittle'					=> 'Kuka',
-			'turn'						=> 'Sarım',
-			'created_at'			=> '<span data-toggle="tooltip" data-placement="top" title="Oluşturulma Tarihi">O.Tarihi</span>',
-			'deadline'				=> '<span data-toggle="tooltip" data-placement="top" title="Termin Tarihi">T.Tarihi</span>',
-			'quantity'				=> '<span data-toggle="tooltip" data-placement="top" title="Sipariş Miktarı">S.M.</span>',
-			'dispatch1'				=> '<span data-toggle="tooltip" data-placement="top" title="Sevk 1">S.1</span>',
-			'dispatch2'				=> '<span data-toggle="tooltip" data-placement="top" title="Sevk 2">S.2</span>',
-			'total_dispatch'	=> '<span data-toggle="tooltip" data-placement="top" title="Toplam Sipariş">T.S.</span>',
-			'action'					=> 'İşlemler',
-			'file'						=> 'Ek'
-		))
+	'id'			=> '<span data-toggle="tooltip" data-placement="top" title="Sıra No">S.No</span>',
+	'customer_name'		=> 'Firma Adı',
+	'width'			=> 'En',
+	'height'		=> 'Boy',
+	'paper_type_name'	=> 'Kağıt',
+	'cut_type_name'		=> 'Kesim',
+	'skittle'		=> 'Kuka',
+	'turn'			=> 'Sarım',
+	'created_at'		=> '<span data-toggle="tooltip" data-placement="top" title="Oluşturulma Tarihi">O.Tarihi</span>',
+	'deadline'		=> '<span data-toggle="tooltip" data-placement="top" title="Termin Tarihi">T.Tarihi</span>',
+	'quantity'		=> '<span data-toggle="tooltip" data-placement="top" title="Sipariş Miktarı">S.M.</span>',
+	'dispatch1'		=> '<span data-toggle="tooltip" data-placement="top" title="Sevk 1">S.1</span>',
+	'dispatch2'		=> '<span data-toggle="tooltip" data-placement="top" title="Sevk 2">S.2</span>',
+	'total_dispatch'	=> '<span data-toggle="tooltip" data-placement="top" title="Toplam Sipariş">T.S.</span>',
+	'action'		=> 'İşlemler',
+	'file'			=> 'Ek'
+	))
 	->setColumnFunction('action',function($row) {
 		return '<div data-row-id="row'.$row['id'].'" class="btn-group" role="group">
 			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -153,7 +152,7 @@ için yazdığım <b>kullanımı çok basit</b> bir sınıf. Kütüphanenin bir 
 				<span class="caret"></span>
 			</button>
 			<ul class="dropdown-menu list-menu" role="menu">
-    		<li><a data-toggle="tooltip" data-placement="left" title="'.$row['description'].'" class="btn-xs btn-default"> <i class="fa fa-list"></i> Açıklama</a></li>
+    				<li><a data-toggle="tooltip" data-placement="left" title="'.$row['description'].'" class="btn-xs btn-default"> <i class="fa fa-list"></i> Açıklama</a></li>
 				<li><a data-toggle="tooltip" data-placement="left" title="'.$row['accounting_description'].'" class="btn-xs btn-default"> <i class="fa fa-list-alt"></i> M. Açıklama</a></li>
 				<li><a onclick="askChangeStatusPrint('.$row['id'].');" data-toggle="tooltip" data-placement="left" title="Yazdır" class="btn-xs btn-default"> <i class="fa fa-print"></i> Yazdır</a></li>
 				<li><a onclick="askChangeStatusProcess('.$row['id'].');" data-toggle="tooltip" data-placement="left" title="İşleme Al" class="btn-xs btn-default"> <i class="fa fa-scissors"></i> İşleme Al</a></li>
