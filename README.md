@@ -19,13 +19,14 @@ için yazdığım <b>kullanımı çok basit</b> bir sınıf. Kütüphanenin bir 
 </code>
 
 <code>
+<?php
   // $orders : key-value array şeklinde olması gerek. yani;
   
   $orders = Array
-  (<br>
-    [0] => Array<br>
-        (<br>
-            [id] => 758<br>
+  (
+    [0] => Array
+        (
+            [id] => 758
             [customer_id] => 247
             [deadline] => 2015-05-01 09:36:00
             [manufacturing_deadline] => 1970-01-01 00:00:00
@@ -124,6 +125,7 @@ için yazdığım <b>kullanımı çok basit</b> bir sınıf. Kütüphanenin bir 
             [file] => 
         )
   );
+  ?>
 </code>
 
 <code>
