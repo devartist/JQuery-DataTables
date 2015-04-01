@@ -9,3 +9,9 @@ A friend can help to translate the English language properly.</b>
 Arkadaşlar, <b>Jquery</b> ile hazırlanmış olan <b>DataTables Kütüphanesi</b>'ndeki tablo satır sütünlarını otomatik oluşturmak 
 için yazdığım <b>kullanımı çok basit</b> bir sınıf. Kütüphanenin bir çok özelliğini kullanabiliyoruz. Kullanımını aşağıda anlatıyorum <b>buyrun</b>;
 
+Öncelikle JQuery DataTables kullanmayı öğrenmek, indirmek için https://www.datatables.net 'i ziyaret edin;
+
+<?php echo 'asdas'; ?>
+<code>
+  <?php echo 'asd'; ?>
+</code>
