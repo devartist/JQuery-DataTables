@@ -11,7 +11,14 @@ için yazdığım <b>kullanımı çok basit</b> bir sınıf. Kütüphanenin bir 
 
 Öncelikle JQuery DataTables kullanmayı öğrenmek, indirmek için https://www.datatables.net 'i ziyaret edin;
 
-<?php echo 'asdas'; ?>
+<br>
 <code>
-  <?php echo 'asd'; ?>
+  //code.jquery.com/jquery-1.11.1.min.js
+  //cdn.datatables.net/1.10.5/js/jquery.dataTables.min.js
+</code>
+
+<code>
+  $(document).ready(function() {
+    $('#example').dataTable();
+  } );
 </code>
