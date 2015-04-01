@@ -13,12 +13,12 @@ için yazdığım <b>kullanımı çok basit</b> bir sınıf. Kütüphanenin bir 
 
 <br>
 <code>
-  //code.jquery.com/jquery-1.11.1.min.js<br>
-  //cdn.datatables.net/1.10.5/js/jquery.dataTables.min.js<br>
-  //cdn.datatables.net/1.10.5/css/jquery.dataTables.css
+//code.jquery.com/jquery-1.11.1.min.js<br>
+//cdn.datatables.net/1.10.5/js/jquery.dataTables.min.js<br>
+//cdn.datatables.net/1.10.5/css/jquery.dataTables.css
 </code>
 
-<code>
+```bash
 <?php
   // $orders : key-value array şeklinde olması gerek. yani;
   
@@ -213,4 +213,4 @@ için yazdığım <b>kullanımı çok basit</b> bir sınıf. Kütüphanenin bir 
 	->setData($orders) 
 	->make();
 }
-</code>
+```
